@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Education website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="RyanMathews"> Ryan Mathews</h1>
+        <p>Welcome to DOM </p>
+        <p class="subtitle"> Document object Role </p>
+        <p>Fall 2024 </p>
+
+        <form>
+            <label for="age"></label>
+            <input type="checkbox" name="groupages" id="age1" value="age1group"></input>
+            <label for="age2">21 to 35</label>
+            <input type="checkbox" name="groupages" id="age2" value="agegroup2">
+        </form>
+
+        <main class="container">
+            <section class="s1">
+                <p class="ps1">Ryan Mathews</p>
+                <p class="ps1">Try to change the font-size to 25px</p>
+            </section>
+            <section class="s2">
+                <div class="divs2"></div>
+                <div class="divs2"></div>
+            </section>
+
+
+        <script>
+        let h1name = document.getElementById("Ryan Mathews");
+        let paragraphs = document.getElementsNyTagName("p");
+        let subtitle = document.getElementByClassName("subtitle");
+        let firstparagraph = document.querySelector()
+        let title = document.querySelector("#ryanMathews")
+        let subtitle2 = document.querySelector(".subtitle")
+        let groupparagraphs = document.querySelector("p")
+
+        // chnage text content of the third paragraph
+        groupparagraphs[2].textContent = "Hello there!";
+        subtitle2.innerHTML = "<h3> The tree Model in JavaScript</h3>";
+
+        // chnage the style
+        h1name.style.color = "olive";
+        h1.style.textAlign = "center";
+        subtitle2.style.backroundColor = "lightpink";
+        subtitle2.style.padding = "15px";
+
+        // change or add class name 
+        groupparagraphs[0].className = "colorblue";
+
+        // EXERCISE
+// note: use querySelector() or querySelectorAll()
+// search for the first p with class ps1 and change the text content to "STUDENT'S FULL NAME"
+let ps1Paragraph = document.querySelector("p.ps1");
+ps1Paragraph.textContent = "STUDENT'S FULL NAME";
+
+// search for the second p with class ps1 and change the font-size to 25px  and color to olive
+let ps1Paragraphs = document.querySelectorAll("p.ps1");
+ps1Paragraphs[1].style.fontSize = "25px";
+ps1Paragraphs[1].style.color = "olive";
+
+// search for the first div with class divs2 and change the background color to indigo
+let divs2Div = document.querySelector("div.divs2");
+divs2Div.style.backgroundColor = "indigo";
+
+// search for the second div with class divs2 and change the width to 300px
+let divs2Divs = document.querySelectorAll("div.divs2");
+divs2Divs[1].style.width = "300px";
+         </script>
+    </body>
+    </html>
