@@ -1,22 +1,22 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for kids */
-    background-color: #f0f8ff; /* Light blue background */
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: #f0f8ff; 
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: linear-gradient(135deg, #ffcc00, #ff6600); /* Gradient header */
+    background: linear-gradient(135deg, #ffcc00, #ff6600); 
     padding: 30px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    border-bottom: 5px solid #ff3300; /* Darker orange border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-bottom: 5px solid #ff3300; 
 }
 
 h1 {
-    font-size: 2.5em; /* Larger font size for the title */
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Soft shadow for text */
+    font-size: 2.5em; 
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); 
 }
 
 nav ul {
@@ -26,45 +26,45 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px; /* Increased margin for spacing */
+    margin: 0 20px; 
 }
 
 nav a {
     text-decoration: none;
     color: #333;
-    font-weight: bold; /* Bold links */
-    transition: color 0.3s; /* Smooth color transition */
+    font-weight: bold; 
+    transition: color 0.3s; 
 }
 
 nav a:hover {
-    color: #ff3300; /* Change color on hover */
+    color: #ff3300; 
 }
 
 section {
     padding: 20px;
     margin: 15px;
-    border: 2px dashed #ffcc00; /* Dashed border for sections */
-    border-radius: 15px; /* More rounded corners */
-    background-color: #ffffff; /* White background for sections */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: transform 0.3s; /* Smooth transform transition */
+    border: 2px dashed #ffcc00; 
+    border-radius: 15px; 
+    background-color: #ffffff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
 }
 
 section:hover {
-    transform: scale(1.02); /* Slightly enlarge on hover */
+    transform: scale(1.02); 
 }
 
 h2 {
-    color: #ff6600; /* Orange headings */
-    font-size: 1.8em; /* Larger font size for section headings */
-    text-align: center; /* Centered headings */
+    color: #ff6600; 
+    font-size: 1.8em; 
+    text-align: center; 
 }
 
 button {
-    background-color: #ff6600; /* Bright orange button */
+    background-color: #ff6600; 
     color: white;
     border: none;
-    padding: 12px 25px; /* Increased padding for buttons */
+    padding: 12px 25px; /
     border-radius: 8px; /* More rounded corners */
     cursor: pointer;
     font-size: 1.1em; /* Slightly larger font size */
