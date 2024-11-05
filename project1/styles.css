@@ -1,22 +1,22 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
-    background-color: #f0f8ff; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for kids */
+    background-color: #f0f8ff; /* Light blue background */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: linear-gradient(135deg, #ffcc00, #ff6600); 
+    background: linear-gradient(135deg, #2200ff, #ffea00); /* Gradient header */
     padding: 30px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-    border-bottom: 5px solid #ff3300; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-bottom: 5px solid #2600ff; /* Darker orange border */
 }
 
 h1 {
-    font-size: 2.5em; 
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); 
+    font-size: 2.5em; /* Larger font size for the title */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Soft shadow for text */
 }
 
 nav ul {
@@ -26,63 +26,90 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px; 
+    margin: 0 20px; /* Increased margin for spacing */
 }
 
 nav a {
     text-decoration: none;
     color: #333;
-    font-weight: bold; 
-    transition: color 0.3s; 
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s; /* Smooth color transition */
 }
 
 nav a:hover {
-    color: #ff3300; 
+    color: #ffee00; /* Change color on hover */
 }
 
 section {
     padding: 20px;
     margin: 15px;
-    border: 2px dashed #ffcc00; 
-    border-radius: 15px; 
-    background-color: #ffffff; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s; 
+    border: 2px dashed #ffff00; /* Dashed border for sections */
+    border-radius: 15px; /* More rounded corners */
+    background-color: #ffffff; /* White background for sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transform transition */
 }
 
 section:hover {
-    transform: scale(1.02); 
+    transform: scale(1.02); /* Slightly enlarge on hover */
 }
 
 h2 {
-    color: #ff6600; 
-    font-size: 1.8em; 
-    text-align: center; 
+    color: #2600ff; /* Orange headings */
+    font-size: 1.8em; /* Larger font size for section headings */
+    text-align: center; /* Centered headings */
+    margin-bottom: 10px; /* Space below headings */
 }
 
 button {
-    background-color: #ff6600; 
+    background-color: #2200ff; /* Bright orange button */
     color: white;
     border: none;
-    padding: 12px 25px; /
+    padding: 12px 25px; /* Increased padding for buttons */
     border-radius: 8px; /* More rounded corners */
     cursor: pointer;
     font-size: 1.1em; /* Slightly larger font size */
     transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for buttons */
 }
 
 button:hover {
     background-color: #ff3300; /* Darker orange on hover */
-    transform: scale(1.05); 
+    transform: scale(1.05); /* Slightly enlarge button on hover */
 }
 
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #ffcc00; 
+    background-color: blanchedalmond; /* Same yellow as header */
     position: relative;
     bottom: 0;
     width: 100%;
-    font-size: 0.9em; 
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    font-size: 0.9em; /* Smaller font size for footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on top */
+}
+
+/* Additional styles for fun elements */
+button:active {
+    transform: scale(0.95); /* Slightly shrink button when clicked */
+}
+
+section p {
+    font-size: 1.1em; /* Slightly larger font size for paragraphs */
+    line-height: 1.5; /* Improved line height for readability */
+    text-align: center; /* Centered text in sections */
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Responsive font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Responsive font size for section headings */
+    }
+
+    button {
+        padding: 10px 20px; /* Adjust button padding for smaller screens */
+    }
 }
