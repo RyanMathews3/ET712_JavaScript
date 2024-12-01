@@ -1,0 +1,47 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+  }
+  
+  .availability {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .in-stock {
+    color: green;
+  }
+  
+  .out-of-stock {
+    color: red;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
