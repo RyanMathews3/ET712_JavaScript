@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import Home from './pages/Home';
+import Home from "./pages/Home";
 
-import Cheddar from './pages/Cheddar';
+import SoftCheeses from "./pages/SoftCheeses";
 
-import Brie from './pages/Brie';
+import HardCheeses from "./pages/HardCheeses";
 
-import Gouda from './pages/Gouda';
+import BlueCheeses from "./pages/BlueCheeses";
+
+import './App.css';
 
 
 
@@ -20,27 +22,23 @@ function App() {
 
       <div>
 
-        <nav>
+        <header>
 
-          <Link to="/">Home</Link> | 
+          <h1>Cheese Delight</h1>
 
-          <Link to="/cheddar">Cheddar</Link> | 
+          <Link to="/">Home</Link>
 
-          <Link to="/brie">Brie</Link> | 
-
-          <Link to="/gouda">Gouda</Link>
-
-        </nav>
+        </header>
 
         <Routes>
 
           <Route path="/" element={<Home />} />
 
-          <Route path="/cheddar" element={<Cheddar />} />
+          <Route path="/soft-cheeses" element={<SoftCheeses />} />
 
-          <Route path="/brie" element={<Brie />} />
+          <Route path="/hard-cheeses" element={<HardCheeses />} />
 
-          <Route path="/gouda" element={<Gouda />} />
+          <Route path="/blue-cheeses" element={<BlueCheeses />} />
 
         </Routes>
 
@@ -55,4 +53,5 @@ function App() {
 
 
 export default App;
+
 

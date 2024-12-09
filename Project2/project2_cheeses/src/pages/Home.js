@@ -1,48 +1,32 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-function Home() {
-  return (
-    <div className="home-container">
-      <h1>Welcome to Cheese Explorer</h1>
-      <p>Discover delicious dishes made with your favorite cheeses.</p>
+const Home = () => (
+  <div className="home-container">
+    <h1>Welcome to Cheese Delight</h1>
+    <p>Explore the world of cheeses through our curated sections. We offer a wide variety of cheeses, from creamy brie to sharp cheddar. We strive on being best thats why our cheeses are voted to be the absolute BEST!</p>
 
-      <div className="link-container">
-        <div className="cheese-item">
-          <img
-            src="/images/cheddar.jpg"
-            alt="Cheddar Cheese"
-            className="cheese-image"
-          />
-          <Link to="/cheddar" className="explore-link" aria-label="Explore Cheddar Dishes">
-            Explore Cheddar Dishes
-          </Link>
-        </div>
-        
-        <div className="cheese-item">
-          <img
-            src="/images/brie.jpg"
-            alt="Brie Cheese"
-            className="cheese-image"
-          />
-          <Link to="/brie" className="explore-link" aria-label="Explore Brie Dishes">
-            Explore Brie Dishes
-          </Link>
-        </div>
-        
-        <div className="cheese-item">
-          <img
-            src="/images/gouda.jpg"
-            alt="Gouda Cheese"
-            className="cheese-image"
-          />
-          <Link to="/gouda" className="explore-link" aria-label="Explore Gouda Dishes">
-            Explore Gouda Dishes
-          </Link>
-        </div>
+    <nav>
+      <Link to="/soft-cheeses">Soft Cheeses</Link>
+      <Link to="/hard-cheeses">Hard Cheeses</Link>
+      <Link to="/blue-cheeses">Blue Cheeses</Link>
+    </nav>
+
+    <div className="image-section">
+      <div className="image-slot">
+        <img src="hardcheese.jpg" alt="Cheese Variety 1" />
+        <p>Soft Cheese Selection</p>
+      </div>
+      <div className="image-slot">
+        <img src="softcheese.jpg" alt="Cheese Variety 2" />
+        <p>Hard Cheese Delights</p>
+      </div>
+      <div className="image-slot">
+        <img src="blue.jpg" alt="Cheese Variety 3" />
+        <p>Blue Cheese Wonders</p>
       </div>
     </div>
-  );
-}
+  </div>
+);
 
 export default Home;
